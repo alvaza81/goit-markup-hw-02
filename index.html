@@ -11,15 +11,21 @@
     <header class="header">
       <nav class="navigation">
         <a class="logo" href="/">WebStudio</a>
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="/">Студия</a></li>
-          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li class="nav-item"><a class="link" href="/">Студия</a></li>
+          <li class="nav-item">
+            <a class="link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-item"><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="auth-nav list">
+        <li>
+          <a class="link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
@@ -31,7 +37,7 @@
       </div>
       <section>
         <!--<h2>Особенности нашей работы</h2> Сделать заголовок НЕ примечанием и скрыть с помощью CSS-->
-        <ul>
+        <ul class="list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -64,7 +70,7 @@
       </section>
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/studio/desktop-applications.jpg"
@@ -93,7 +99,7 @@
       </section>
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/studio/igor-demyanenko.jpg"
@@ -137,12 +143,13 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">WebStudio</a>
-      <address>
-        <ul>
+    <footer class="footer">
+      <a class="logo" href="/">WebStudio</a>
+      <address class="address">
+        <ul class="address-studio list">
           <li>
             <a
+              class="post-address link"
               href="https://goo.gl/maps/WzEJstEwFaHD8LDW9"
               target="_blank"
               rel="noopener noreferrer"
@@ -150,8 +157,16 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a class="mail-address link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="tel-address link" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
