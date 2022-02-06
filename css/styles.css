@@ -21,6 +21,11 @@ body {
   list-style: none;
 }
 
+/* header */
+.header {
+  background-color: var(--wite-bg-color);
+}
+
 .logo {
   color: var(--akcent-text-color);
 }
@@ -31,6 +36,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--akcent-text-color);
+}
+.site-nav .link.current {
   color: var(--akcent-text-color);
 }
 
@@ -46,14 +54,14 @@ body {
 /* body */
 /* ГЕРОЙ */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--futer-bg-color);
 }
 .hero-title {
   color: var(--wite-text-color);
 }
 .hero-button {
   color: var(--wite-text-color);
-  background-color: #2196f3;
+  background-color: var(--akcent-bg-color);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -63,11 +71,19 @@ body {
 .section-title {
   color: #212121;
 }
-/* Чем мы занимаемся */
-.feature-list .title {
+.feature-list .paragraph {
+  color: var(--secondary-text-color);
 }
+
+/* Чем мы занимаемся */
+
 /* Наша команда */
-.team .title {
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list .paragraph {
+  color: var(--secondary-text-color);
 }
 /* ФУТЕР */
 .footer {
@@ -97,4 +113,18 @@ body {
 .tel-address:hover,
 .tel-address:focus {
   color: var(--akcent-text-color);
+}
+
+/* portfolio */
+.portfolio-button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--wite-text-color);
+  background-color: var(--akcent-bg-color);
+}
+.project .paragraph {
+  color: var(--secondary-text-color);
 }
