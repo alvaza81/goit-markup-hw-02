@@ -1,56 +1,85 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --akcent-text-color: #2196f3;
+  --wite-text-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #f5f4fa;
+  --akcent-bg-color: #2196f3;
+  --wite-bg-color: #ffffff;
+  --futer-bg-color: #2f303a;
+}
+
+/* серый-с прозрачностью цвет текста в адресе rgba(255, 255, 255, 0.6); */
+/* голубой фон кнопки в ГЕРОЕ при наведении #188CE8; */
+
 body {
-  color: #212121;
-  background: #e5e5e5;
+  color: var(--primary-text-color);
+  background: var(--primary-bg-color);
 }
 .list {
   list-style: none;
 }
 
-/* основной цвет текста         черный цвет текста ссылок хедера заголовков        #212121; */
-/* дополнительный цвет текста   черный-сеерый цвет текста телефона, текста секций  #757575; */
-/* голубой цвет текста ссылок, емейла при наведении #2196F3; */
-/* белый текст h1 и активные кнопки  #FFFFFF; */
-/* серый-с прозрачностью цвет текста в адресе rgba(255, 255, 255, 0.6); */
-
-/* белый фон хедера background: #FFFFFF; */
-/* фон героя, футера background: #2F303A; */
-/* голубой фон кнопки background: #2196F3; */
-/* серый фон секции наша команда и кнопок фильтров секции портфолио background: #F5F4FA; */
-/* основной цвет фона     белый фон секции чем мы занимаемся и страницы портфолио background: #E5E5E5; */
-
 .logo {
-  color: #2196f3;
+  color: var(--akcent-text-color);
 }
 
 /* Навигация сайта */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--akcent-text-color);
 }
 
 /* Навигация авторизации */
 .auth-nav .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+  color: var(--akcent-text-color);
 }
 
+/* body */
+/* ГЕРОЙ */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--wite-text-color);
+}
+.hero-button {
+  color: var(--wite-text-color);
+  background-color: #2196f3;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+/* Особенности работы */
+.section-title {
+  color: #212121;
+}
+/* Чем мы занимаемся */
+.feature-list .title {
+}
+/* Наша команда */
+.team .title {
+}
 /* ФУТЕР */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--futer-bg-color);
 }
 
 .post-address {
-  color: #ffffff;
+  color: var(--wite-text-color);
 }
 .post-address:hover,
 .post-address:focus {
-  color: #2196f3;
+  color: var(--akcent-text-color);
 }
 
 .mail-address {
@@ -62,10 +91,10 @@ body {
 
 .mail-address:hover,
 .mail-address:focus {
-  color: #2196f3;
+  color: var(--akcent-text-color);
 }
 
 .tel-address:hover,
 .tel-address:focus {
-  color: #2196f3;
+  color: var(--akcent-text-color);
 }
