@@ -3,10 +3,9 @@
   --secondary-text-color: #757575;
   --akcent-text-color: #2196f3;
   --wite-text-color: #ffffff;
-  --primary-bg-color: #e5e5e5;
+  --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --akcent-bg-color: #2196f3;
-  --wite-bg-color: #ffffff;
   --futer-bg-color: #2f303a;
 }
 
@@ -23,11 +22,14 @@ body {
 
 /* header */
 .header {
-  background-color: var(--wite-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .logo {
   color: var(--akcent-text-color);
+}
+.link {
+  text-decoration: none;
 }
 
 /* Навигация сайта */
