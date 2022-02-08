@@ -32,6 +32,17 @@ body {
 
 .logo {
   color: var(--akcent-text-color);
+  font-family: var(--logo-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo .dark {
+  color: #000000;
+}
+.logo .lite {
+  color: #ffffff;
 }
 
 /* Навигация сайта */
@@ -96,6 +107,7 @@ body {
 .hero-button:focus {
   background-color: #188ce8;
 }
+
 /* Особенности работы */
 .section-title {
   /* font-family: var(--primary-font-famili); */
@@ -202,6 +214,7 @@ body {
   color: var(--wite-text-color);
   background-color: var(--akcent-bg-color);
 }
+
 .project .title {
   /* font-family: var(--primary-font-famili); */
   font-weight: 700;
