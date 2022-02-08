@@ -1,6 +1,6 @@
 :root {
-  --primary-font-famili: Roboto, sans-serif;
-  --logo-font: Raleway, sans-serif;
+  --primary-font-famili: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --akcent-text-color: #2196f3;
@@ -82,7 +82,6 @@ body {
 }
 .hero-title {
   color: var(--wite-text-color);
-  /* font-family: var(--primary-font-famili); */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,7 +92,7 @@ body {
 .hero-button {
   color: var(--wite-text-color);
   background-color: var(--akcent-bg-color);
-  font-family: var(--primary-font-famili);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -110,7 +109,6 @@ body {
 
 /* Особенности работы */
 .section-title {
-  /* font-family: var(--primary-font-famili); */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -118,7 +116,6 @@ body {
   letter-spacing: 0.03em;
 }
 .feature-list .title {
-  /* font-family: var(--primary-font-famili); */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,7 +124,6 @@ body {
 }
 .feature-list .paragraph {
   color: var(--secondary-text-color);
-  /* font-family: var(--primary-font-famili); */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -140,8 +136,10 @@ body {
 .team {
   background-color: var(--secondary-bg-color);
 }
+.team-lid {
+  background-color: var(--primary-bg-color);
+}
 .team-list .title {
-  /* font-family: var(--primary-font-famili); */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -150,7 +148,6 @@ body {
 }
 .team-list .paragraph {
   color: var(--secondary-text-color);
-  /* font-family: var(--primary-font-famili); */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -164,7 +161,6 @@ body {
 
 .post-address {
   color: var(--wite-text-color);
-  /* font-family: var(--primary-font-famili); */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -179,7 +175,6 @@ body {
 .mail-address,
 .tel-address {
   color: rgba(255, 255, 255, 0.6);
-  /* font-family: var(--primary-font-famili); */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -202,7 +197,7 @@ body {
   color: var(--primary-text-color);
   /* background-color: var(--secondary-bg-color); */
   cursor: pointer;
-  font-family: var(--primary-font-famili);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -216,7 +211,6 @@ body {
 }
 
 .project .title {
-  /* font-family: var(--primary-font-famili); */
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -225,7 +219,6 @@ body {
 
 .project .paragraph {
   color: var(--secondary-text-color);
-  /* font-family: var(--primary-font-famili); */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
