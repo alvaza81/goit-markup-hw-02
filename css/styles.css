@@ -16,7 +16,7 @@
 
 body {
   color: var(--primary-text-color);
-  background: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
   font-family: var(--primary-font-famili);
 }
 .list {
@@ -26,9 +26,6 @@ body {
   text-decoration: none;
 }
 /* header */
-.header {
-  background-color: var(--primary-bg-color);
-}
 
 .logo {
   color: var(--akcent-text-color);
@@ -42,7 +39,7 @@ body {
   color: #000000;
 }
 .logo .lite {
-  color: #ffffff;
+  color: var(--wite-text-color);
 }
 
 /* Навигация сайта */
@@ -64,7 +61,6 @@ body {
 /* Навигация авторизации */
 .auth-nav .link {
   color: var(--secondary-text-color);
-  /* font-family: var(--primary-font-famili); */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -124,7 +120,6 @@ body {
 }
 .feature-list .paragraph {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -148,7 +143,6 @@ body {
 }
 .team-list .paragraph {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -162,7 +156,6 @@ body {
 .post-address {
   color: var(--wite-text-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -176,7 +169,6 @@ body {
 .tel-address {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -219,7 +211,6 @@ body {
 
 .project .paragraph {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
