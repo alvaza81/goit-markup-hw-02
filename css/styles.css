@@ -12,6 +12,7 @@
 }
 
 /* серый-с прозрачностью цвет текста в адресе rgba(255, 255, 255, 0.6); */
+
 /* голубой фон кнопки в ГЕРОЕ при наведении #188CE8; */
 
 body {
@@ -25,7 +26,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* header */
+/* == header == */
 
 .logo {
   color: var(--akcent-text-color);
